@@ -34,6 +34,7 @@ class _AddArticleDialogState extends State<AddArticleDialog> {
       title: Text(widget.initialArticle != null
           ? 'Modifier Article'
           : 'Ajouter Article'),
+          backgroundColor: Color.fromARGB(255, 255, 255, 255),
       content: Container(
         width: double.maxFinite,
         child: SingleChildScrollView(

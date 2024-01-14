@@ -184,12 +184,13 @@ class _MyHomePageState extends State<MyHomePage> {
             });
           }
         },
-        backgroundColor: Color.fromARGB(255, 76, 39, 161), // Couleur de fond du bouton
+        backgroundColor:
+            Color.fromRGBO(76, 39, 161, 1), 
         elevation: 8.0, // Élévation du bouton
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(100.0), // Bord arrondi du bouton
+          borderRadius: BorderRadius.circular(100.0), 
         ),
-        heroTag: 'add_button', // Balise héros pour éviter les avertissements
+        heroTag: 'add_button', 
         child: Icon(Icons.add),
       ),
 
